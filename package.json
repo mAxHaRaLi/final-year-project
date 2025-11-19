@@ -1,1 +1,23 @@
-{"name":"recipe-maker-backend","version":"1.0.0","description":"this is the backend of my final project ","main":"index.js","scripts":{"start":"node index.js"},"keywords":["node"],"author":"mazhar","license":"ISC","dependencies":{"dotenv":"^17.2.3","express":"^5.1.0"}}
+{
+    "name": "recipe-maker-backend",
+    "version": "1.0.0",
+    "description": "this is the backend of my final project ",
+    "type": "module",
+    "main": "index.js",
+    "scripts": {
+        "start": "nodemon src/index.js"
+    },
+    "keywords": [
+        "node"
+    ],
+    "author": "mazhar",
+    "license": "ISC",
+    "dependencies": {
+        "dotenv": "^17.2.3",
+        "express": "^5.1.0",
+        "mongodb": "^7.0.0"
+    },
+    "devDependencies": {
+        "nodemon": "^3.1.11"
+    }
+}
