@@ -6,6 +6,7 @@ import connectDB from './db/index.js';
 dotenv.config({
     path: './.env'
 });
+const app = express();
 
  connectDB()
   .then( ()=>{ 
@@ -40,3 +41,4 @@ dotenv.config({
 // app.listen(port,()=>{
 //     console.log(`app listening on port ${port}`)
 // })
+// export default app;
