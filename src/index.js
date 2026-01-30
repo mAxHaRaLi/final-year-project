@@ -1,5 +1,6 @@
 import dotenv from 'dotenv';
 import express from 'express';
+//import app  from './app.js';
 import mongoose from 'mongoose';
 import connectDB from './db/index.js';
 
@@ -41,4 +42,4 @@ const app = express();
 // app.listen(port,()=>{
 //     console.log(`app listening on port ${port}`)
 // })
-// export default app;
+ export default app;
